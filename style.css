@@ -1,0 +1,10 @@
+body{margin: 100px;}
+.bankTitle{text-align: center;}
+
+.submit-area{
+            margin-top: 50px;
+            border-radius: 10px;
+           box-shadow: 5px 5px 20px rebeccapurple;
+           padding: 40px;
+
+}
