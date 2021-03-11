@@ -8,3 +8,15 @@ body{margin: 100px;}
            padding: 40px;
 
 }
+#transaction {
+    display: none;
+    
+}
+.Deposite{background-color: lightskyblue;}
+.withrow{background-color: lightsalmon;}
+.Balance{background-color: yellow;}
+
+.margin{margin: 0 10px;
+        color: white;
+        padding: 20px;
+        border-radius: 10px;}

@@ -20,11 +20,41 @@
             <button id="login" class="btn btn-success">Enter</button>
         </div>
     </div>
+
+
+    <div id="transaction">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="Deposite margin">
+                    <h5>Deposite</h5>
+                    <h2>$00</h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="withrow margin">
+                    <h5>Withrow</h5>
+                    <h2>$00</h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="Balance margin">
+                    <h5>Balance</h5>
+                <h2>$100</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
     <script>
         const loginButton= document.getElementById('login');
              loginButton.addEventListener("click", function(event){
         const loginArea = document.getElementById('login-area');
               loginArea.style.display = 'none'
+         const tranjactare = document.getElementById('transaction');
+               tranjactare.style.display = "block";
              })
     </script>
 </body>
