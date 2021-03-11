@@ -14,9 +14,10 @@ body{margin: 100px;}
 }
 .Deposite{background-color: lightskyblue;}
 .withrow{background-color: lightsalmon;}
-.Balance{background-color: yellow;}
+.Balance{background-color:lightcoral;}
 
 .margin{margin: 0 10px;
         color: white;
         padding: 20px;
-        border-radius: 10px;}
+        border-radius: 10px;
+        text-align: center;}
